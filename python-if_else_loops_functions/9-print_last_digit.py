@@ -2,11 +2,9 @@
 
 
 def print_last_digit(number):
-	lastDigit = 0
-	if number < 0:
-		number = abs(number)
+    lastDigit = 0
 
-	lastDigit = number % 10
+    lastDigit = abs(number) % 10
 
-	print(lastDigit, end='')
-	return(lastDigit)
+    print(lastDigit, end='')
+    return lastDigit
