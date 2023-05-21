@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""
-Module for task 0
-"""
+def squareit(number):
+    result = number ** 2
+    return result
 
 
-class Rectangle:
-    """empty class Rectangle"""
-    pass
+def square_matrix_simple(matrix=[]):
+    newtrix = [list(map(squareit, row)) for row in matrix]
+    return newtrix
