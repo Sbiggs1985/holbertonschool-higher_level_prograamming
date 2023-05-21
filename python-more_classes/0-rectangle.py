@@ -1,9 +1,12 @@
 #!/usr/bin/python3
-def squareit(number):
-    result = number ** 2
-    return result
+"""
+An empty triangle
+"""
 
 
-def square_matrix_simple(matrix=[]):
-    newtrix = [list(map(squareit, row)) for row in matrix]
-    return newtrix
+class Rectangle:
+    """
+    An empty Rectangle
+    """
+
+    pass
