@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 """
-square Class
+
+Class Square that defines a square
+
 """
 
 Class Square:
