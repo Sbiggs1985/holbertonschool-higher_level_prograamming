@@ -1,1 +1,2 @@
-SHOW DATABASES;
+--Comment
+SHOW databases;
