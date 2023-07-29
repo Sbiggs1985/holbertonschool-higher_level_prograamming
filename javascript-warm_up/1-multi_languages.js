@@ -1,3 +1,4 @@
+#!/usr/bin/node
 let line1 = 'C is fun';
 console.log(line1);
 
