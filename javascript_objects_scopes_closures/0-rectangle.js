@@ -1,4 +1,6 @@
 #!/usr/bin/node
 class Rectangle {
-console.log(Rectanlge);
+// The class body is empty for now
 }
+
+module.exports = Rectangle;
