@@ -1,23 +1,23 @@
 #!/usr/bin/node
-const Rectangle = require('./4-rectangle');
+const SquareClass = require('./5-square.js');
 
-class Square extends Rectangle {
-  constructor(size) {
-    // Call the constructor of the base class (Rectangle)
-    super(size, size);
+class Square extends SquareClass {
+  constructor (size) {
+    super(size);
+    this.size = size;
   }
 
-  charPrint(c) {
-    if (c === undefined) {
-      c = 'X';
-    }
-
-    if (this.width && this.height) {
-      for (let i = 0; i < this.height; i++) {
-        console.log(c.repeat(this.width));
+  charPrint (c) {
+    for (let j = 0; j < this.width; j++) {
+      for (let j = 0; j < this.width; j++) {
+        if (c === undefined) {
+          process.stdout.write('X');
+        } else {
+          process.stdout.write(c);
+        }
       }
+      console.log('');
     }
   }
 }
-
 module.exports = Square;
