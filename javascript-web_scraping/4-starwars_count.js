@@ -3,7 +3,7 @@
 
 const request = require('request');
 
-function countMoviesWithCharacter(characterId, callback) {
+function countMoviesWithCharacter (characterId, callback) {
   const reqURL = process.argv[2];
   request(reqURL, function (error, response, body) {
     if (error) {
